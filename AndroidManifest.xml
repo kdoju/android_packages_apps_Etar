@@ -197,7 +197,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="org.lineageos.etar.provider"
+            android:authorities="kdoju.etar.provider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -207,7 +207,7 @@
 
         <provider android:name="com.android.calendar.CalendarRecentSuggestionsProvider"
             android:exported="false"
-            android:authorities="org.lineageos.etar.CalendarRecentSuggestionsProvider" />
+            android:authorities="kdoju.etar.CalendarRecentSuggestionsProvider" />
 
         <!-- Declarations for alerts/reminders -->
         <activity

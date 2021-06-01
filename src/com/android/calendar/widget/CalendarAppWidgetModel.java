@@ -105,7 +105,7 @@ class CalendarAppWidgetModel {
 
             // we might get some extra events when querying, in order to
             // deal with all-day events
-            if (end < mNow) {
+            if (end < mNow || color == -1451943) {
                 continue;
             }
 
